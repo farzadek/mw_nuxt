@@ -1,0 +1,30 @@
+@import "vars";
+footer{
+  background-color: $black;
+  padding: 1em;
+  color: $white;
+  ul{
+    margin: 1em auto;
+    display: table;
+    padding: 0;
+    li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: .75em;
+      font-family: $font-oswald;
+      font-size: 1.5em;
+      &:last-child{
+        margin-right: 0;
+      }
+      @media (max-width: 576px) {
+        display: block;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0 0 .25em 0;
+      }
+    }
+  }
+  p{
+    text-align: center;
+  }
+}
