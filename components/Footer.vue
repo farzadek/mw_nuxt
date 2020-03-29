@@ -8,15 +8,15 @@
             <li><a>portfolio</a></li>
             <li><a>à propos de nous</a></li>
             <li><a>contactez-nous</a></li>
-            <li><a>En</a></li>
+            <li><a>En <img src="~assets/img/en_flag.png" alt="en"></a></li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
           <ul>
-            <li><a>instagram</a></li>
-            <li><a>linkedin</a></li>
+            <li><a href="https://www.instagram.com/farzadek/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/farzadkamali" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,32 @@
+.navbar {
+  padding: 10px 1em;
+  z-index: 100000;
+}
+
+.navbar.navbar-light .navbar-toggler {
+  border: 0;
+}
+
+.navbar .container {
+  position: relative;
+}
+
+.navbar .container .navbar-collapse {
+  position: absolute;
+  top: 50px;
+  background-color: #f6f6f6;
+  right: 0;
+}
+
+.navbar .container .navbar-nav .nav-link {
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: .4em 1.5em;
+  font-family: oswald, serif, times;
+}
+
+.navbar .container .navbar-nav .nav-link img {
+  height: .75em;
+  margin-top: -.15em;
+}

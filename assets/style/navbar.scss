@@ -1,0 +1,32 @@
+@import "vars";
+.navbar {
+    padding: 10px 1em;
+    z-index: 100000;
+    &.navbar-light {
+        .navbar-toggler {
+            border: 0;
+        }
+    }
+    .container {
+        position: relative;
+        .navbar-collapse {
+            position: absolute;
+            top: 50px;
+            background-color: $white;
+            right: 0;
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $black;
+                text-transform: uppercase;
+                font-size: 2em;
+                padding: .4em 1.5em;
+                font-family: $font-second;
+                img {
+                    height: .75em;
+                    margin-top: -.15em;
+                }
+            }
+        }
+    }
+}
