@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Never expand</a>
+      <NuxtLink class="navbar-brand" to="/"><img src="~assets/img/logo.png" alt=""> MontréalWEB</NuxtLink>
       <button
         class="navbar-toggler"
         type="button"

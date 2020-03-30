@@ -1,7 +1,8 @@
 @import "vars";
 .navbar {
-    padding: 10px 1em;
+    padding: 5px 1em;
     z-index: 100000;
+    height: 60px;
     &.navbar-light {
         .navbar-toggler {
             border: 0;
@@ -9,6 +10,22 @@
     }
     .container {
         position: relative;
+        .navbar-brand {
+            font-family: $font-second;
+            font-size: 2em;
+            line-height: 1;
+            color: $black;
+            @media all and (max-width: 576px) {
+                font-size: 1.5em;
+            }
+            img {
+                height: 44px;
+                margin-top: -4px;
+                @media all and (max-width: 576px) {
+                    height: 32px;
+                }
+            }
+        }
         .navbar-collapse {
             position: absolute;
             top: 50px;
@@ -22,9 +39,15 @@
                 font-size: 2em;
                 padding: .4em 1.5em;
                 font-family: $font-second;
+                @media all and (max-width: 576px) {
+                    font-size: 1.5em;
+                }
                 img {
                     height: .75em;
                     margin-top: -.15em;
+                    @media all and (max-width: 576px) {
+                        height: .65em;
+                    }
                 }
             }
         }

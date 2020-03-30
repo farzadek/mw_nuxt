@@ -1,0 +1,110 @@
+@import "vars";
+.index {
+    color: $black;
+    .intro {
+        background-image: url('~assets/img/bk1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: calc(100vh - 60px);
+        .container {
+            position: relative;
+            height: 100%;
+            &>div {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: calc(100% - 30px);
+                color: $white;
+                h1 {
+                    font-family: $font-second;
+                    font-size: 5em;
+                    text-shadow: 0 0 1px $black;
+                    @media all and (max-width: 576px) {
+                        font-size: 3em;
+                    }
+                }
+                p {
+                    font-size: 1.25em;
+                    @media all and (max-width: 576px) {
+                        font-size: .8em;
+                        line-height: 1.15;
+                    }
+                }
+                .btn {
+                    @media all and (max-width: 576px) {
+                        font-size: .8em;
+                    }
+                }
+            }
+        }
+    }
+    .cqnfaison {
+        margin-top: 6em;
+        .row {
+            .col-12 {
+                padding: 1em;
+                div {
+                    padding: 1em;
+                    background-color: white;
+                    box-shadow: 1px 1px 0.6em 0 #999;
+                    border-radius: 8px;
+                    height: 250px;
+                    @media all and (max-width: 576px) {
+                        height: 170px;
+                    }
+                    h3 {
+                        color: $light-blue;
+                        font-family: $font-second;
+                        font-size: 1.75em;
+                        i {
+                            margin-right: .5em;
+                        }
+                        @media all and (max-width: 1024px) {
+                            font-size: 1.25em;
+                        }
+                        @media all and (max-width: 576px) {
+                            font-size: 1.15em;
+                        }
+                    }
+                    p {
+                        font-size: 1em;
+                        @media all and (max-width: 1024px) {
+                            font-size: .85em;
+                        }
+                        @media all and (max-width: 576px) {
+                            font-size: .75em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .portfolio {
+        margin-top: 6em;
+        background-color: white;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin: .5em auto;
+            display: block;
+            width: 70%;
+            color: $orange;
+            font-size: 1.35em;
+            padding-bottom: 1em;
+            border-bottom: 1px solid $black;
+            @media all and (max-width: 576px) {
+                width: 90%;
+                font-size: 1.05em;
+            }
+        }
+        .row {
+            margin-top: 5em;
+            .col-12 {}
+        }
+    }
+}

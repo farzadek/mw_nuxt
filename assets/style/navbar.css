@@ -1,6 +1,7 @@
 .navbar {
-  padding: 10px 1em;
+  padding: 5px 1em;
   z-index: 100000;
+  height: 60px;
 }
 
 .navbar.navbar-light .navbar-toggler {
@@ -9,6 +10,30 @@
 
 .navbar .container {
   position: relative;
+}
+
+.navbar .container .navbar-brand {
+  font-family: oswald, serif, times;
+  font-size: 2em;
+  line-height: 1;
+  color: #333333;
+}
+
+@media all and (max-width: 576px) {
+  .navbar .container .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.navbar .container .navbar-brand img {
+  height: 44px;
+  margin-top: -4px;
+}
+
+@media all and (max-width: 576px) {
+  .navbar .container .navbar-brand img {
+    height: 32px;
+  }
 }
 
 .navbar .container .navbar-collapse {
@@ -26,7 +51,19 @@
   font-family: oswald, serif, times;
 }
 
+@media all and (max-width: 576px) {
+  .navbar .container .navbar-nav .nav-link {
+    font-size: 1.5em;
+  }
+}
+
 .navbar .container .navbar-nav .nav-link img {
   height: .75em;
   margin-top: -.15em;
+}
+
+@media all and (max-width: 576px) {
+  .navbar .container .navbar-nav .nav-link img {
+    height: .65em;
+  }
 }
