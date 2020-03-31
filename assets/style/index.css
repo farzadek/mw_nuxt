@@ -1,7 +1,6 @@
 .index {
   color: #333333;
 }
-
 .index .intro {
   background-image: url("~assets/img/bk1.jpg");
   background-repeat: no-repeat;
@@ -9,12 +8,10 @@
   background-size: cover;
   height: calc(100vh - 60px);
 }
-
 .index .intro .container {
   position: relative;
   height: 100%;
 }
-
 .index .intro .container > div {
   position: absolute;
   top: 50%;
@@ -22,44 +19,36 @@
   width: calc(100% - 30px);
   color: #f6f6f6;
 }
-
 .index .intro .container > div h1 {
   font-family: oswald, serif, times;
   font-size: 5em;
   text-shadow: 0 0 1px #333333;
 }
-
 @media all and (max-width: 576px) {
   .index .intro .container > div h1 {
     font-size: 3em;
   }
 }
-
 .index .intro .container > div p {
   font-size: 1.25em;
 }
-
 @media all and (max-width: 576px) {
   .index .intro .container > div p {
-    font-size: .8em;
+    font-size: 0.8em;
     line-height: 1.15;
   }
 }
-
 @media all and (max-width: 576px) {
   .index .intro .container > div .btn {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
-
 .index .cqnfaison {
   margin-top: 6em;
 }
-
 .index .cqnfaison .row .col-12 {
   padding: 1em;
 }
-
 .index .cqnfaison .row .col-12 div {
   padding: 1em;
   background-color: white;
@@ -67,65 +56,54 @@
   border-radius: 8px;
   height: 250px;
 }
-
 @media all and (max-width: 576px) {
   .index .cqnfaison .row .col-12 div {
     height: 170px;
   }
 }
-
 .index .cqnfaison .row .col-12 div h3 {
   color: #25aae1;
   font-family: oswald, serif, times;
   font-size: 1.75em;
 }
-
 .index .cqnfaison .row .col-12 div h3 i {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-
 @media all and (max-width: 1024px) {
   .index .cqnfaison .row .col-12 div h3 {
     font-size: 1.25em;
   }
 }
-
 @media all and (max-width: 576px) {
   .index .cqnfaison .row .col-12 div h3 {
     font-size: 1.15em;
   }
 }
-
 .index .cqnfaison .row .col-12 div p {
   font-size: 1em;
 }
-
 @media all and (max-width: 1024px) {
   .index .cqnfaison .row .col-12 div p {
-    font-size: .85em;
+    font-size: 0.85em;
   }
 }
-
 @media all and (max-width: 576px) {
   .index .cqnfaison .row .col-12 div p {
-    font-size: .75em;
+    font-size: 0.75em;
   }
 }
-
 .index .portfolio {
   margin-top: 6em;
   background-color: white;
   padding-top: 1em;
   padding-bottom: 1em;
 }
-
 .index .portfolio h2 {
   text-align: center;
 }
-
 .index .portfolio p {
   text-align: center;
-  margin: .5em auto;
+  margin: 0.5em auto;
   display: block;
   width: 70%;
   color: #f7941e;
@@ -133,29 +111,32 @@
   padding-bottom: 1em;
   border-bottom: 1px solid #333333;
 }
-
 @media all and (max-width: 576px) {
   .index .portfolio p {
     width: 90%;
     font-size: 1.05em;
   }
 }
-
-.index .portfolio .row {
-  margin-top: 5em;
+.index .portfolio .row .portf-items h3 {
+  color: #f7941e;
+  font-weight: 700;
+  margin: 2.5em 0 0.5em 1.25em;
 }
-
-.index .portfolio .row .row a {
-  color: #333333;
-  border: 1px solid white;
-  text-decoration: none;
-  border-radius: 7px;
+.index .portfolio .row .portf-items ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-
-.index .portfolio .row .row a img {
+.index .portfolio .row .portf-items ul li {
+  justify-content: space-around;
+  margin: 0;
+  padding: 0.5em;
+  width: 25%;
+  overflow: hidden;
+}
+.index .portfolio .row .portf-items ul li img {
   width: 100%;
 }
 
-.index .portfolio .row .row a:hover {
-  border: 1px solid #ddd;
-}
+/*# sourceMappingURL=index.css.map */

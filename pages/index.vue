@@ -114,24 +114,60 @@
           <div class="row">
             <FolioCompo title="web" />
           </div>
-          <div class="row">
-            <NuxtLink to="/portfolio/web" class="col-12 col-sm-6 mb-5 p-3">
-              <h3>WEB</h3>
-              <img src="~assets/img/bk.jpg" alt="" />
-            </NuxtLink>
-            <a class="col-12 col-sm-6 mb-5 p-3">
-              <h3>Design web (UI)</h3>
-              <img src="~assets/img/bk.jpg" alt="" />
-            </a>
-            <a class="col-12 col-sm-6 mb-5 p-3">
-              <h3>Infographie</h3>
-              <img src="~assets/img/bk.jpg" alt="" />
-            </a>
-            <a class="col-12 col-sm-6 mb-5 p-3">
-              <h3>Photographie</h3>
-              <img src="~assets/img/bk.jpg" alt="" />
-            </a>
+          <div class="row portf-items">
+            <h3>WEB</h3>
+            <ul>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+            </ul>
           </div>
+
+          <div class="row portf-items">
+            <h3>CONCEPTION GRAPHIQUE</h3>
+            <ul>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+
+          <div class="row portf-items">
+            <h3>CONCEPTION WEB (UI)</h3>
+            <ul>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+              <li>
+                <img src="~assets/img/bk.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </section>
@@ -140,10 +176,9 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import FolioCompo from "~/components/FolioCompo.vue";
 
 export default Vue.extend({
-  components: {FolioCompo}
+  components: {}
 })
 </script>
 <style>
