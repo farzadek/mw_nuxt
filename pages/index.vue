@@ -112,6 +112,9 @@
         <div class="row">
           <h2>PORTFOLIO</h2>
           <div class="row">
+            <FolioCompo title="web" />
+          </div>
+          <div class="row">
             <NuxtLink to="/portfolio/web" class="col-12 col-sm-6 mb-5 p-3">
               <h3>WEB</h3>
               <img src="~assets/img/bk.jpg" alt="" />
@@ -137,9 +140,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import FolioCompo from "~/components/FolioCompo.vue";
 
 export default Vue.extend({
-  components: {}
+  components: {FolioCompo}
 })
 </script>
 <style>
