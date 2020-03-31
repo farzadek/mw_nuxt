@@ -144,3 +144,18 @@
 .index .portfolio .row {
   margin-top: 5em;
 }
+
+.index .portfolio .row .row a {
+  color: #333333;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.index .portfolio .row .row a img {
+  width: 100%;
+}
+
+.index .portfolio .row .row a:hover {
+  border: 1px solid #ddd;
+}

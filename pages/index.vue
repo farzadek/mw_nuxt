@@ -101,7 +101,7 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="container">
         <h2>QUELQUES-UNS DE NOS TRAVAUX</h2>
         <p>
@@ -111,7 +111,24 @@
         </p>
         <div class="row">
           <h2>PORTFOLIO</h2>
-          <div class="col-12"></div>
+          <div class="row">
+            <NuxtLink to="/portfolio/web" class="col-12 col-sm-6 mb-5 p-3">
+              <h3>WEB</h3>
+              <img src="~assets/img/bk.jpg" alt="" />
+            </NuxtLink>
+            <a class="col-12 col-sm-6 mb-5 p-3">
+              <h3>Design web (UI)</h3>
+              <img src="~assets/img/bk.jpg" alt="" />
+            </a>
+            <a class="col-12 col-sm-6 mb-5 p-3">
+              <h3>Infographie</h3>
+              <img src="~assets/img/bk.jpg" alt="" />
+            </a>
+            <a class="col-12 col-sm-6 mb-5 p-3">
+              <h3>Photographie</h3>
+              <img src="~assets/img/bk.jpg" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
